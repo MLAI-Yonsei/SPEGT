@@ -1,10 +1,19 @@
 
-# SPEGT
+# Structural and positional ensembled encoding for Graph Transformer
 
 
-## Framework
-A detailed description can be found through the link. <https://github.com/emforce77/rwlspegate2/blob/main/technical_report.pdf>
-
+## Abstract
+ In the Transformer architecture, positional encoding is a vital component because it provides the model with
+ information about the structure and position of data. In Graph Transformer, there have been attempts to
+ introduce different positional encodings and inject additional structural information. Therefore, in terms of
+ integrating positional and structural information, we propose a Structural and Positional Ensembled Graph
+ Transformer (SPEGT). We developed SPEGT by noting the different properties of structural and positional
+ encodings of graphs and the similarity of their computational processes. We have set a unified component
+ that integrates the functionalities: (i) Random Walk Positional Encoding, (ii) Shortest Path Distance between
+ each node, and (iii) Hierarchical Cluster Encoding. We find a problem with a well-known positional encoding
+ and experimentally verify that combining it with other encodings can solve their problem. In addition, SPEGT
+ outperforms previous models on a variety of graph datasets. We also show that SPEGT using unified positional
+ encoding, performs well on structurally indistinguishable graph data through error case analysis.
 
 
 ## Results
